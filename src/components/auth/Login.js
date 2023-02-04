@@ -21,19 +21,19 @@ const Login = () => {
         e.preventDefault();
         setError('');
 
-        if(!username || !password) {
+        if (!username || !password) {
             setLoading(false);
             return setError('Some Field is Empty');
         }
 
-        console.log(username, password);
+        // console.log(username, password);
         const user = {
             userName: username,
             password: password
         }
         // Pass the values to the api
         const response = await loginFunction(user);
-        if(response.error) {
+        if (response.error) {
             setLoading(false);
             return setError(response.error);
         }
