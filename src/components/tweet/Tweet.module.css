@@ -1,0 +1,54 @@
+.tweet {
+    border: 1px solid grey;
+    display: flex;
+    padding: 20px;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    width: 45vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tweet__first {
+    margin-right: 10px;
+}
+
+.tweet__first img {
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.tweet__second {
+    padding: 5px;
+}
+
+.tweet__second_first {
+    margin-bottom: 13px;
+}
+
+.tweet__second_first h5 {
+    font-size: 15px;
+}
+
+.tweet__second_first h6 {
+    color: grey;
+    font-size: 13px;
+}
+
+/* .tweet__second__second {
+    display: flex;
+}
+
+.tweet__second__second h6 {
+    margin-right: 12px;
+} */
+
+.tweet__second_second p {
+    margin-bottom: 50px;
+}
+
+.tweet__second_second img {
+    width: 30rem;
+    height: 35rem;
+}

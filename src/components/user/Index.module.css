@@ -1,0 +1,9 @@
+.index {
+    /* border: 2px solid blue; */
+    height: 100vh;
+}
+
+.index_first {
+    height: 100%;
+    display: flex;
+}

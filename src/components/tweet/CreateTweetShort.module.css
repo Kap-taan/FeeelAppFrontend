@@ -1,0 +1,69 @@
+.tweet {
+    border: 1px solid grey;
+    display: flex;
+    padding: 20px;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    width: 45vw;
+    font-family: 'Poppins', sans-serif;
+    height: max-content;
+}
+
+.modal_second {
+    /* border: 2px solid purple; */
+    display: flex;
+    width: 100%;
+}
+
+.create__first img {
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.create__second {
+    /* border: 2px solid whitesmoke; */
+    width: 100%;
+}
+
+.create__second form {
+    /* height: 100%; */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.create__second textarea {
+    min-height: 100%;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 18px;
+    overflow: scroll;
+    scrollbar-width: 0;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+}
+
+.create__second textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid green; */
+}
+
+.create__second button {
+    background-color: rgb(75, 153, 233);
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}

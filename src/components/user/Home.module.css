@@ -1,0 +1,12 @@
+.home {
+    overflow: scroll;
+    padding: 40px;
+    scrollbar-width: none;
+    width: fit-content;
+    border: 1px solid grey;
+
+}
+
+.home::-webkit-scrollbar {
+    display: none;
+}

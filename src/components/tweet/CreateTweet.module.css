@@ -1,0 +1,94 @@
+.create {
+    height: 100vh;
+    /* border: 2px solid blue; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgba(51, 60, 69, 0.322);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.modal {
+    /* border: 2px solid red; */
+    padding: 30px;
+    width: 50%;
+    height: 60vh;   
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 80px;   
+}
+
+.modal_first {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid red; */
+    margin-bottom: 40px;
+}
+
+.modal_first img {
+    width: 2rem;
+}
+
+.modal_second {
+    /* border: 2px solid purple; */
+    padding: 20px;
+    display: flex;
+    height: 70%;
+}
+
+.create__first {
+    padding: 5px;
+    /* border: 2px solid blue; */
+    margin-right: 20px;
+}
+
+.create__first img {
+    width: 3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.create__second {
+    /* border: 2px solid blueviolet; */
+    flex-grow: 1;
+}
+
+.create__second form {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.create__second textarea {
+    min-height: 100%;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 23px;
+    overflow: scroll;
+    scrollbar-width: 0;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+}
+
+.create__second textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create__second button {
+    background-color: rgb(75, 153, 233);
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}

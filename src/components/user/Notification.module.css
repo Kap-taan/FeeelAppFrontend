@@ -1,0 +1,33 @@
+.notification {
+    border: 1px solid grey;
+    padding: 50px;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    width: 45vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.notification h2 {
+    margin-bottom: 40px;
+}
+
+.notification ul {
+    list-style: none;
+}
+
+.notification ul li {
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.notification_second {
+    display: flex;
+    align-items: center;
+}
+
+.notification_second img {
+    width: 3rem;
+    margin-right: 13px;
+}
